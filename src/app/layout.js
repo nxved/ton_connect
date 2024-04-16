@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <TonConnectUIProvider manifestUrl="ton-connect-ruddy.vercel.app/tonconnect-manifest.json">
+      <TonConnectUIProvider manifestUrl="https://ton-connect-ruddy.vercel.app/tonconnect-manifest.json">
         <body className={inter.className}>{children}</body>
       </TonConnectUIProvider>
     </html>
